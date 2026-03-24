@@ -1,0 +1,17 @@
+{
+  "BakongSettings": {
+    "BakongAccount": "your_account@bkrt",
+    "MerchantName": "YOUR MERCHANT NAME",
+    "MerchantCity": "YOUR CITY",
+    "BankName": "YOUR BANK NAME",
+    "Token": "your_bakong_jwt_token_here",
+    "InquiryUrl": "https://api-bakong.nbc.gov.kh/v1/check_transaction_by_md5"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*"
+}

@@ -1,0 +1,49 @@
+## .NET / C# gitignore
+
+# Build output
+bin/
+obj/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio / Rider
+.vs/
+.idea/
+*.rsuser
+
+# dotnet CLI tools
+.config/dotnet-tools.json
+
+# Publish output
+publish/
+out/
+
+# Logs
+*.log
+logs/
+
+# Runtime data
+*.pid
+*.seed
+
+# Env / secrets
+.env
+.env.*
+appsettings.json
+appsettings.*.json
+secrets.json
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini

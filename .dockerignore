@@ -1,0 +1,11 @@
+bin/
+obj/
+.git/
+.vs/
+*.user
+*.log
+.env
+.env.*
+appsettings.Local.json
+appsettings.Development.json
+README.md
