@@ -24,4 +24,11 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.MapControllers();
+app.MapGet("/", () => Results.Ok(new
+{
+    status = "success",
+    message = "Payway Service is running",
+    version = "1.0.0",
+    docs = "/swagger"
+})).ExcludeFromDescription();
 app.Run();
