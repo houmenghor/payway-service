@@ -24,7 +24,7 @@ RUN dotnet publish payway.csproj \
 # -------------------------------
 # Stage 2: Runtime
 # -------------------------------
-FROM mcr.microsoft.com/dotnet/aspnet:10.0 AS runtime
+FROM mcr.microsoft.com/dotnet/aspnet:10.0-alpine AS runtime
 
 WORKDIR /app
 
